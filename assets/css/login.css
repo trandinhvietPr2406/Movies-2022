@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --header: 70px;
+}
+
+#main {}
+
+#header {
+    height: var(--header);
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+#header .anhdaidien {
+    cursor: pointer;
+    float: left;
+    padding: 5px 10px;
+    margin-left: 50px;
+}
+
+#header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+#header img:hover {
+    opacity: 0.8;
+}
+
+
+#header .header-content {
+    line-height: var(--header);
+    color: #000;
+    padding: 0 10px;
+    font-size: 24px;
+    float: left;
+    cursor: pointer;
+}
+
+#header .header-content .color-1 {
+    background: -webkit-linear-gradient(#b92b27, #1565c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#header .help {
+    float: right;
+    padding: 0 80px;
+}
+
+#header .help a {
+    text-decoration: none;
+    color: red;
+    opacity: 0.9;
+    font-size: 14px;
+    line-height: var(--header);
+}
+
+#content {
+    height: 650px;
+    width: 100%;
+    background-color: #222d38;
+}
+
+#content .nd {
+    width: 50%;
+    float: left;
+}
+
+#content .content-left {
+    padding: 150px;
+    text-align: center;
+}
+
+#content .content-left .content-left-header {
+    cursor: pointer;
+    padding-top: 20px;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#1e9600, #fff200, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#content .content-left .content-left-subheader {
+    padding-top: 40px;
+    font-size: 24px;
+    background: -webkit-linear-gradient(#1e9600, #fff200, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#content .content-left img {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#content .content-left img:hover {
+    opacity: 0.9;
+}
+
+#content .content-right {
+    width: 30%;
+    height: 85%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+#content .center-right {
+    padding: 30px;
+}
+
+#content>.content-right>.center-right>.back {
+    margin-top: 14px;
+}
+
+#content>.content-right>.center-right>.back>a>.ti-back-left {
+    font-size: 12px;
+}
+#content>.content-right>.center-right>.back>a {
+    /* color: #000; */
+    opacity: 0.9;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#content .content-right .p-dangnhap {
+    font-size: 24px;
+    color: #000;
+}
+
+#content .center-right .nhap {
+    height: 40px;
+}
+
+#content .center-right input {
+    padding: 12px;
+    width: 100%;
+    font-size: 15px;
+}
+
+#content .center-right .nhap1 {
+    margin-top: 30px;
+}
+
+#content .center-right .nhap2 {
+    margin-top: 36px;
+}
+
+#content .center-right .hienmatkhau {
+    cursor: pointer;
+    padding: 24px 14px;
+    float: left;
+    color: #05a;
+}
+
+#content .center-right button {
+    cursor: pointer;
+    width: 100%;
+    background-color: #ee4d2d;
+    opacity: 0.9;
+    border: none;
+    border-radius: 2px;
+    height: 44px;
+}
+
+#content>.content-right>.center-right>.btn-dangnhap>button>a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#content .center-right button:hover {
+    opacity: 1;
+}
+
+#content .center-right .btn-dangnhap {
+    margin-top: 60px;
+}
+
+#content .center-right .quenmatkhau {
+    padding: 20px;
+}
+
+#content .center-right .quenmatkhau a {
+    text-decoration: none;
+    color: #05a;
+    font-size: 14px;
+}
+
+#content .center-right .quenmatkhau .left {
+    float: left;
+}
+
+#content .center-right .quenmatkhau .right {
+    float: right;
+}
+
+#content .center-right .hoac {
+    margin-top: 20px;
+}
+
+#content .center-right .contenthoac {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+#content .center-right .icon-content {
+    margin-top: 20px;
+}
+
+#content .center-right .icon {
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    float: left;
+    width: 33.333%;
+    height: 40px;
+    line-height: 40px;
+}
+
+#content .center-right .icon:hover {
+    background-image: linear-gradient(#40e0d0, #ff8c00, #ff0080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+#content .center-right .icon-fb {
+    color: blue;
+}
+
+#content .center-right .icon-gg {
+    background-image: linear-gradient(#1e9600, #fff200, #ff0000, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+#content .center-right .icon-apple {
+    color: black;
+}
+
+#content .center-right .dangky {
+    margin-top: 88px;
+    font-size: 15px;
+}
+
+#content .center-right .phimhay {
+    margin-top: 50px;
+    opacity: 0.9;
+}
+
+#content .center-right .dangky a {
+    text-decoration: none;
+    color: #ee4d2d;
+}
+
+
+#main #footer {
+    width: 1166px;
+    /* background-color: #1d2731; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer hr {
+    border: none;
+    height: 1px;
+    color: rgba(0,0,0,.54);;
+    background-color: rgba(0,0,0,.54);;
+}
+
+#footer .ngandong {
+    margin-top: 40px;
+}
+
+#footer .chinhsach {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#footer .chinhsach .border-right {
+    border-right: 1px solid rgba(0,0,0,.54);
+}
+
+#footer .chinhsach a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+
+#footer .chinhsach a:hover {
+    color: gray;
+}
+
+#footer .congtyphimhay {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+#footer .chitiet-congtyphimhay {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 12px;
+}
+
+#footer .chitiet-congtyphimhay p {
+    margin-top: 10px;
+    color: rgba(0,0,0,.54);
+}
